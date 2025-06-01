@@ -12,14 +12,16 @@ body {
 }
 
 
-/* Mis trabajos */
-
 #Mis-trabajos .image-top {
   height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("assets/img/print-desafio2.png"); 
+  background-size: contain; 
   background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
 }
+
 
 /* Contacto */
 
@@ -40,7 +42,7 @@ body {
 }
 
 p.my-5 {
-  color: white; /* o el color que uses */
+  color: white; 
   text-shadow: 1px 1px 2px black;
 }
 
